@@ -1,0 +1,109 @@
+:root {
+  --backround-color:#c6e9f1;
+  --primary-color: #65d2ee;
+  --font-text: "playfair display", sans-serif;
+  --box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  --font-body: font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+  font-family: var(--font-body);
+  
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-size: 96px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+}
+
+p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+
+.hero {
+  text-align: center;
+  background: var(--backround-color);
+  padding: 90px 20px;
+}
+.hero h2 {
+  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-size: 48px;
+}
+
+.hero h1 {
+  font-family: var(--font-text);
+  font-size: 96px;
+  color: var(--primary-color);
+}
+
+.hero h3 {
+  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+}
+.button-link {
+  background: var(--primary-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 18px 30px;
+  text-decoration: none;
+}
+@media (min-width: 800px) 
+{
+  .hero h1 {
+    font-size: 50px;}}  
+
+  .social-media a {
+    display: flex;
+  
+  justify-content: center;
+	padding: 0 8px;
+  text-decoration: none;
+}
+
+.contact-box {
+  background-color: var(--backround-color);
+  padding: 20px 120px;
+  margin-left: 120px;
+  margin-right: 120px;
+  border-radius: 20px;
+}
+.footer-index {
+  font-size: small;
+  padding-top: 6px;
+  line-height: 15px;
+  color: black;
+  text-decoration: none;
+}
+.footer-git {
+  color: black;
+  text-decoration: none;
+  font-weight: bolder;
+}
+#cv-body {
+        margin-bottom: 50px;
+    }
+    #cv-body .row {
+    padding: 12px;}
